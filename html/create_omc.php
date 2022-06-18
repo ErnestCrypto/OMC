@@ -142,7 +142,7 @@ style="width:100%;padding:2%;background:white;border-radius:5px">
     
 <i class="fa fa-image prefix grey-text"></i>
 <input type="file"  id="logo" class="form-control" 
-style = "border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:9%;" >
+style = "border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:9%;color:blue" >
     </div>
         </div>
         </div>                                       

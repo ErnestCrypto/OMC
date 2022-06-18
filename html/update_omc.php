@@ -139,7 +139,7 @@ style="width:100%;padding:2%;background:white;border-radius:5px">
 <p style = "font-size:21px;font-weight:bold;">Update your OMC name and logo<p>
     </div>
     <div class="col-sm-3" >
-    <p class = "btn btn-danger">Delete <i class="fa fa-trash"></i></p>
+    <p class = "btn btn-danger">Delete OMC <i class="fa fa-trash"></i></p>
     </div>
     </div>
 <form action="#" method="POST">
@@ -147,7 +147,7 @@ style="width:100%;padding:2%;background:white;border-radius:5px">
      <div class="col-md-6 mb-4">
 <div class="md-form">
 <i class="fa fa-building prefix grey-text"></i>
-<input type="text" id="OMC" class="form-control">
+<input type="text" id="OMC" class="form-control" value="SHELL">
 <label for="OMC">OMC name</label>
     </div>
         </div>
@@ -156,7 +156,7 @@ style="width:100%;padding:2%;background:white;border-radius:5px">
     
 <i class="fa fa-image prefix grey-text"></i>
 <input type="file"  id="logo" class="form-control" 
-style = "border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:9%;" >
+style = "border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:9%;color:blue" >
     </div>
         </div>
         </div>                                       
@@ -174,6 +174,7 @@ style = "border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:9%;"
 <section style="padding-top:5%;">
 
 <div class ="input_fields_wrap">
+
       <div class="row" >
      <div class="col-md-4 mb-4">
 <div class="md-form">
@@ -197,16 +198,46 @@ style = "border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:9%;"
 </div>
 </div>
 
-<div style="height:0%;color:white;" class="add_field_button btn btn-primary " >Add</div>
+<div style="height:0%;color:white;" class="remove_field btn btn-danger " >Del</div>
      </div> 
 
+       <div class="row" >
+     <div class="col-md-4 mb-4">
+<div class="md-form">
+<i class="fa fa-cube prefix grey-text"></i>
+<input type="text" name="product[]" class="form-control" value="Diseal">
+<label for="Product">Product name</label>
+    </div>
+        </div>
+        <div class="col-md-3 mb-4">
+<div class="md-form" >
+<i class="fa fa-money prefix grey-text"></i>
+<input type="text"  name="price[]" class="form-control" value="16.00" >
+<label for="price">Product price</label>  
+</div>
+</div>
+<div class="col-md-3 mb-4">
+<div class="md-form" >
+<i class="fa fa-balance-scale prefix grey-text"></i>
+<input type="text"  name="units[]" class="form-control"  value="1" >
+<label for="Units">Units</label>  
+</div>
+</div>
+
+<div style="height:0%;color:white;" class="remove_field btn btn-danger " >Del</div>
+     </div> 
+
+</div>
 </section>
 
 
 </div>
+<div class="row" style="padding-left:2%">
+     <div style="height:0%;color:white;" class="add_field_button btn btn-primary " >Add Product</div>
 
-<div class="col-sm-12">
+<div class="col-sm-6">
     <button type="Submit" class="btn btn-info">Update</button>
+    </div>
     </div>
 </form>
  </div></div>

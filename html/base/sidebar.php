@@ -39,8 +39,7 @@
                         <h6 class="collapse-header">CUSTOMIZE OMC :</h6>
                     <a class="collapse-item" href="create_omc.php">Create OMC</a>
                         <a class="collapse-item" href="view_omc.php">View OMC</a>
-                        <a class="collapse-item" href="update_omc.php">Update OMC</a>
-                <a class="collapse-item" href="delete_omc.php">Delete OMC</a>
+                        
 
                     </div>
                 </div>
