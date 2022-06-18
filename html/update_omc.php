@@ -198,7 +198,7 @@ style = "border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:9%;c
 </div>
 </div>
 
-<div style="height:0%;color:white;" class="remove_field btn btn-danger " >Del</div>
+<div style="height:0%;color:white;background:red" class="remove_field btn " >Del</div>
      </div> 
 
        <div class="row" >
@@ -224,7 +224,7 @@ style = "border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:9%;c
 </div>
 </div>
 
-<div style="height:0%;color:white;" class="remove_field btn btn-danger " >Del</div>
+<div style="height:0%;backgwhite;background:red" class="remove_field btn  " >Del</div>
      </div> 
 
 </div>
