@@ -305,6 +305,7 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
     <tr>
       <th scope="col"><i class="fa fa-sun"></i></th>
       <th scope="col">Profile</th>
+      <th scope="col">ID</th>
       <th scope="col">Firstname</th>
       <th scope="col">Lastname</th>
       <th scope="col">Gender</th>
@@ -319,6 +320,7 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
       <th scope="row">1</th>
       <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
   alt="profile" /></td>
+  <td>1082577</td>
       <td>Mark</td>
       <td>Otto</td>
       <td>Male</td>
@@ -331,6 +333,7 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
       <th scope="row">2</th>
        <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
   alt="profile" /></td>
+    <td>1082577</td>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>Male</td>
@@ -343,6 +346,7 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
       <th scope="row">3</th>
       <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
   alt="profile" /></td>
+    <td>1082577</td>
       <td>Larry</td>
       <td>Robenson</td>
      <td>Male</td>
@@ -355,6 +359,7 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
       <th scope="row">4</th>
        <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
   alt="profile" /></td>
+    <td>1082577</td>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>Male</td>
@@ -367,6 +372,7 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
       <th scope="row">5</th>
        <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
   alt="profile" /></td>
+    <td>1082577</td>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>Male</td>
@@ -379,6 +385,7 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
       <th scope="row">6</th>
        <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
   alt="profile" /></td>
+    <td>1082577</td>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>Male</td>
@@ -391,6 +398,7 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
       <th scope="row">7</th>
        <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
   alt="profile" /></td>
+    <td>1082577</td>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>Male</td>
@@ -403,6 +411,7 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
       <th scope="row">8</th>
        <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
   alt="profile" /></td>
+    <td>1082577</td>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>Male</td>
