@@ -310,80 +310,106 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
       <th scope="col">Gender</th>
       <th scope="col">Contact</th>
       <th scope="col">Email</th>
+    <th scope="col"><a href ="update_attendants.php" class="text text-success" >EDIT</a></th>
+
     </tr>
   </thead>
   <tbody>
     <tr>
       <th scope="row">1</th>
-      <td>Profile</td>
+      <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
+  alt="profile" /></td>
       <td>Mark</td>
       <td>Otto</td>
       <td>Male</td>
       <td>0501865437</td>
       <td>akotobamfo.eab@gmail.com</td>
+<td scope="col"><a href ="update_attendants.php" class="text text-success" >EDIT</a></td>
+
     </tr>
     <tr>
       <th scope="row">2</th>
-       <td>Profile</td>
+       <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
+  alt="profile" /></td>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>Male</td>
       <td>0501865437</td>
       <td>akotobamfo.eab@gmail.com</td>
+      <td scope="col"><a href ="update_attendants.php" class="text text-success" >EDIT</a></td>
+
     </tr>
     <tr>
       <th scope="row">3</th>
-      <td>Profile</td>
+      <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
+  alt="profile" /></td>
       <td>Larry</td>
       <td>Robenson</td>
      <td>Male</td>
       <td>0501865437</td>
       <td>akotobamfo.eab@gmail.com</td>
+      <td scope="col"><a href ="update_attendants.php" class="text text-success" >EDIT</a></td>
+
     </tr>
      <tr>
-      <th scope="row">2</th>
-       <td>Profile</td>
+      <th scope="row">4</th>
+       <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
+  alt="profile" /></td>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>Male</td>
       <td>0501865437</td>
       <td>akotobamfo.eab@gmail.com</td>
+      <td scope="col"><a href ="update_attendants.php" class="text text-success" >EDIT</a></td>
+
     </tr>
      <tr>
-      <th scope="row">2</th>
-       <td>Profile</td>
+      <th scope="row">5</th>
+       <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
+  alt="profile" /></td>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>Male</td>
       <td>0501865437</td>
       <td>akotobamfo.eab@gmail.com</td>
+      <td scope="col"><a href ="update_attendants.php" class="text text-success" >EDIT</a></td>
+
     </tr>
      <tr>
-      <th scope="row">2</th>
-       <td>Profile</td>
+      <th scope="row">6</th>
+       <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
+  alt="profile" /></td>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>Male</td>
       <td>0501865437</td>
       <td>akotobamfo.eab@gmail.com</td>
+      <td scope="col"><a href ="update_attendants.php" class="text text-success" >EDIT</a></td>
+
     </tr>
      <tr>
-      <th scope="row">2</th>
-       <td>Profile</td>
+      <th scope="row">7</th>
+       <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
+  alt="profile" /></td>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>Male</td>
       <td>0501865437</td>
       <td>akotobamfo.eab@gmail.com</td>
+      <td scope="col"><a href ="update_attendants.php" class="text text-success" >EDIT</a></td>
+
     </tr>
      <tr>
-      <th scope="row">2</th>
-       <td>Profile</td>
+      <th scope="row">8</th>
+       <td style="width:10%;"><img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
+  alt="profile" /></td>
       <td>Jacob</td>
       <td>Thornton</td>
       <td>Male</td>
       <td>0501865437</td>
       <td>akotobamfo.eab@gmail.com</td>
+      <td scope="col"><a href ="update_attendants.php" class="text text-success" >EDIT</a></td>
+
     </tr>
   </tbody>
 </table>

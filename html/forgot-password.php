@@ -51,7 +51,6 @@
         </div>
 
     </div>
-<?php include("base/end.php"); ?>
 
 </body>
 
