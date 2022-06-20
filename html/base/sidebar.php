@@ -74,8 +74,7 @@
                         <h6 class="collapse-header">CUSTOMIZE ATTENDANTS :</h6>
                         <a class="collapse-item" href="create_attendant.php">Create Attendant</a>
                         <a class="collapse-item" href="view_attendants.php">View Attendants</a>
-                        <a class="collapse-item" href="update_attendants.php">Update Attendants</a>
-                        <a class="collapse-item" href="delete_attendant.php">Delete Attendants</a>
+                        
                     </div>
                 </div>
             </li>

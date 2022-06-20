@@ -59,7 +59,7 @@ ide-table-padding td {
  <div class="container-fluid">
 
  <h1 class="h3 mb-15 text-gray-800" >View all your STATIONS</h1>
-  <h6>This is your OMC list</h6>
+  <h6>This is your STATIONS list</h6>
  </div>
 <hr>
 <section style="background:white;border-radius:5px">
