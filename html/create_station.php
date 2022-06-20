@@ -155,7 +155,37 @@ style="width:100%;padding:2%;background:white;border-radius:5px">
  <label for="OMC">Station branch</label>
 
     </div>
-        </div>       
+        </div>   
+
+         <div class="col-md-4 mb-4">
+<div class="md-form" >
+<i class="fa fa-image prefix grey-text"></i>
+<input type="text"  id="logo" class="form-control" 
+ >
+ <label for="OMC">Station Address</label>
+
+    </div>
+        </div>
+
+ <div class="col-md-4 mb-4">
+<div class="md-form" >
+<i class="fa fa-image prefix grey-text"></i>
+<input type="text"  id="logo" class="form-control" 
+ >
+ <label for="OMC">Station Longitude</label>
+
+    </div>
+        </div>
+
+     <div class="col-md-4 mb-4">
+<div class="md-form" >
+<i class="fa fa-image prefix grey-text"></i>
+<input type="text"  id="logo" class="form-control" 
+ >
+ <label for="OMC">Station Latitude</label>
+
+    </div>
+        </div>
         </div>                                       
         
     
@@ -163,7 +193,7 @@ style="width:100%;padding:2%;background:white;border-radius:5px">
 
 <section class="heading-1">
     <span> 
-<i class="fa fa-cart-arrow-down" >   Now time to add some products!
+<i class="fa fa-cart-arrow-down" >   Every station needs some services. Lets add some!
 </i>
 </span>
 </section>
@@ -172,27 +202,21 @@ style="width:100%;padding:2%;background:white;border-radius:5px">
 
 <div class ="input_fields_wrap">
       <div class="row" >
-     <div class="col-md-4 mb-4">
+     <div class="col-md-5 mb-4">
 <div class="md-form">
 <i class="fa fa-cube prefix grey-text"></i>
 <input type="text" name="product[]" class="form-control">
-<label for="Product">Product name</label>
+<label for="Product">Service</label>
     </div>
         </div>
-        <div class="col-md-3 mb-4">
+        <div class="col-md-5 mb-4">
 <div class="md-form" >
 <i class="fa fa-money prefix grey-text"></i>
 <input type="text"  name="price[]" class="form-control" >
-<label for="price">Product price</label>  
+<label for="price">Pricing</label>  
 </div>
 </div>
-<div class="col-md-3 mb-4">
-<div class="md-form" >
-<i class="fa fa-balance-scale prefix grey-text"></i>
-<input type="text"  name="units[]" class="form-control" >
-<label for="Units">Units</label>  
-</div>
-</div>
+
 
 <div style="height:0%;color:white;" class="add_field_button btn btn-primary " >Add</div>
      </div> 
@@ -227,7 +251,7 @@ $(document).ready(function() {
 	e.preventDefault();
 	if(x < max_fields){ 
 	x++;
-$(wrapper).append('<div><div class="row" ><div class="col-md-4 mb-4"><div class="md-form"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"><label for="Product">Product name</label></div></div><div class="col-md-3 mb-4"><div class="md-form"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control" ><label for="price">Product price</label></div></div><div class="col-md-3 mb-4"><div class="md-form" ><i class="fa fa-balance-scale prefix grey-text"></i><input type="text"  id="Units" class="form-control" ><label for="Units">Units</label></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')}
+$(wrapper).append('<div><div class="row" ><div class="col-md-5 mb-4"><div class="md-form"><i class="fa fa-cube prefix grey-text"></i><input type="text" id="Product" class="form-control"><label for="Product">Service</label></div></div><div class="col-md-5 mb-4"><div class="md-form"><i class="fa fa-money prefix grey-text"></i><input type="text"  id="price" class="form-control" ><label for="price">Pricing</label></div></div><div style="background:red;height:0%;color:white;" class="remove_field btn " >Del</div> </div>')}
 	});
 	$(wrapper).on("click",".remove_field", function(e){ 
 	e.preventDefault(); $(this).parent('div').remove(); x--;
