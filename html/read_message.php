@@ -248,7 +248,9 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
     	      <div class="card">
            <div class="card-body">       
         <div class="col-lg-12 col-md-8">
-          
+          <div class="col-sm-3">
+  <i class="fa fa-trash" aria-hidden="true" style="color:red;float:left"></i>
+  </div>
             <div class="card shadow-none mt-3 border border-light">
                <div class="card-body">
                  <div class="media mb-3">

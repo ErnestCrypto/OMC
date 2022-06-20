@@ -99,8 +99,8 @@
                         <h6 class="collapse-header">CUSTOMIZE MESSAGES :</h6>
                         <a class="collapse-item" href="create_message.php">Create a new message</a>
                         <a class="collapse-item" href="view_messages.php">Inbox</a>
-                        <a class="collapse-item" href="#">Sent messages</a>
-                        <a class="collapse-item" href="#">Draft messages</a>
+                        <a class="collapse-item" href="sent_messages.php">Sent messages</a>
+                        <a class="collapse-item" href="draft_messages.php">Draft messages</a>
                     <a class="collapse-item" href="#">Deleted messages</a>
 
                     </div>
