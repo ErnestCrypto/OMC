@@ -311,7 +311,7 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
       <th scope="col">Gender</th>
       <th scope="col">Contact</th>
       <th scope="col">Email</th>
-    <th scope="col"><a href ="update_attendants.php" class="text text-success" >EDIT</a></th>
+    <th scope="col"><a href ="#" class="text text-success" >EDIT</a></th>
 
     </tr>
   </thead>

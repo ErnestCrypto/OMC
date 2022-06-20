@@ -235,89 +235,64 @@
    
 
 <div
-style="width:100%;padding:2%;background:white;border-radius:5px">
- <h1 class="h3 mb-15 text-gray-800" >Write a new message</h1>
- </div>
-<hr>
-<div class="card" style="margin-bottom:2%;padding-bottom:2%;">
-<div class="container"> 
-    <div class="card-body">
-
-<p style = "font-size:21px;font-weight:bold;">Let's start get started...<p>
-<form action="#" method="POST">
-
-
-    <div class="row">      
-<div class="col-md-4 mb-4">
-<div class="md-form" >
-    
-<i class="fa fa-image prefix grey-text"></i>
-<input type="file"  id="logo" class="form-control" 
-style = "border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:12%;color:blue" >
-    </div>
-        </div>
- <div class="col-md-4 mb-4">
-<div class="md-form" >
-<i class="fa fa-image prefix grey-text"></i>
-<input type="text"  id="logo" class="form-control" 
- >
- <label for="OMC">Attendant Firstname</label>
-
-    </div>
-        </div>   
-
-         <div class="col-md-4 mb-4">
-<div class="md-form" >
-<i class="fa fa-image prefix grey-text"></i>
-<input type="text"  id="logo" class="form-control" 
- >
- <label for="OMC">Attendant Lastname</label>
-
-    </div>
-        </div>
-
- <div class="col-md-4 mb-4">
-<div class="md-form" >
-<i class="fa fa-image prefix grey-text"></i>
-<input type="text"  id="logo" class="form-control" 
- >
- <label for="OMC">Gender</label>
-
-    </div>
-        </div>
-
-     <div class="col-md-4 mb-4">
-<div class="md-form" >
-<i class="fa fa-image prefix grey-text"></i>
-<input type="text"  id="logo" class="form-control" 
- >
- <label for="OMC">Contact</label>
-
-    </div>
-        </div>
-        <div class="col-md-4 mb-4">
-<div class="md-form" >
-<i class="fa fa-image prefix grey-text"></i>
-<input type="text"  id="logo" class="form-control" 
- >
- <label for="OMC">Email</label>
-
-    </div>
-        </div>
-        </div>                                       
-        
-    
-           
-
-
+style="width:100%;padding:3%;background:white;border-radius:5px">
+<div class="col-sm-12" style="padding-bottom:2%">
+ <h1 class="h3 mb-15 text-gray-800" >MESSAGES</h1>
+<h6 class="h6 mb-15 text-gray-500" >You can reply to this message</h6>
 
 </div>
+ 
+<div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+    	      <div class="card">
+           <div class="card-body">       
+        <div class="col-lg-12 col-md-8">
+          
+            <div class="card shadow-none mt-3 border border-light">
+               <div class="card-body">
+                 <div class="media mb-3">
+                   <img src="https://bootdey.com/img/Content/avatar/avatar1.png" class="rounded-circle mr-3 mail-img shadow" alt="media image"  width="100" height="100">
+                     <div class="media-body">
+                        <span class="media-meta float-right">08:22 AM</span>
+                        <h4 class="text-primary m-0">Jhon Deo</h4>
+                        <small class="text-muted">From : info@example.com</small>
+                      </div>
+                  </div> <!-- media -->
 
-<div class="col-sm-12">
-    <button type="Submit" class="btn btn-info">Submit</button>
+                  <p><b>Hi Sir...</b></p>
+                  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.</p>
+                  <p>Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar,</p>
+                  <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
+
+                  <hr>
+                  <h4> <i class="fa fa-paperclip mr-2"></i> Attachments <span>(3)</span> </h4>
+                 
+                  </div>
+
+                  <div class="media mt-3">
+                     
+             <div class="col-sm-12">
+          <textarea class="wysihtml5 form-control" rows="9" placeholder="Reply here..."></textarea>
+                      </div>
+                  </div>
+                  <div class="text-right">
+                      <button type="button" class="btn btn-primary waves-effect waves-light mt-3"><i class="fa fa-send mr-1"></i> Send</button>
+                  </div>
+              
+              </div>
+            </div> <!-- card -->
+        </div> <!-- end Col-9 -->
+                    
+                    </div><!-- End row -->
+
+             </div>
+                    </div>
+        </div>
+      </div><!-- End row -->
+
     </div>
-</form>
- </div></div>
+
 <?php include("base/end.php"); ?>
 
 </div>

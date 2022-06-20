@@ -98,7 +98,11 @@
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">CUSTOMIZE MESSAGES :</h6>
                         <a class="collapse-item" href="create_message.php">Create a new message</a>
-                        <a class="collapse-item" href="view_messages.php">View messages</a>
+                        <a class="collapse-item" href="view_messages.php">Inbox</a>
+                        <a class="collapse-item" href="#">Sent messages</a>
+                        <a class="collapse-item" href="#">Draft messages</a>
+                    <a class="collapse-item" href="#">Deleted messages</a>
+
                     </div>
                 </div>
             </li>
