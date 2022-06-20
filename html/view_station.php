@@ -70,7 +70,7 @@ ide-table-padding td {
   <table  class="table table-borderless" >
     <thead>
       <tr style="color:orange">
-        <th scope="col" class = "col-sm-2"><i class="fa fa-sun"></i></th>
+        <th scope="col" ><i class="fa fa-sun"></i></th>
         <th scope="col" class = "col-sm-6">OMC Logo</th>
         <th scope="col" class = "col-sm-6">OMC Name</th>
         

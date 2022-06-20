@@ -58,8 +58,7 @@
                         <h6 class="collapse-header">CUSTOMIZE STATIONS :</h6>
                         <a class="collapse-item" href="create_station.php">Create Station</a>
                         <a class="collapse-item" href="view_station.php">View Stations</a>
-                        <a class="collapse-item" href="update_station.php">Update Sations</a>
-                        <a class="collapse-item" href="delete_station.php">Delete Stations</a>
+                        
                     </div>
                 </div>
             </li>
