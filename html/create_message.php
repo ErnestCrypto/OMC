@@ -246,75 +246,8 @@ style="width:100%;padding:2%;background:white;border-radius:5px">
 <p style = "font-size:21px;font-weight:bold;">Let's start get started...<p>
 <form action="#" method="POST">
 
-
-    <div class="row">      
-<div class="col-md-4 mb-4">
-<div class="md-form" >
-    
-<i class="fa fa-image prefix grey-text"></i>
-<input type="file"  id="logo" class="form-control" 
-style = "border:none;border-bottom:1px solid rgba(0,0,0,0.3);padding-bottom:12%;color:blue" >
-    </div>
-        </div>
- <div class="col-md-4 mb-4">
-<div class="md-form" >
-<i class="fa fa-image prefix grey-text"></i>
-<input type="text"  id="logo" class="form-control" 
- >
- <label for="OMC">Attendant Firstname</label>
-
-    </div>
-        </div>   
-
-         <div class="col-md-4 mb-4">
-<div class="md-form" >
-<i class="fa fa-image prefix grey-text"></i>
-<input type="text"  id="logo" class="form-control" 
- >
- <label for="OMC">Attendant Lastname</label>
-
-    </div>
-        </div>
-
- <div class="col-md-4 mb-4">
-<div class="md-form" >
-<i class="fa fa-image prefix grey-text"></i>
-<input type="text"  id="logo" class="form-control" 
- >
- <label for="OMC">Gender</label>
-
-    </div>
-        </div>
-
-     <div class="col-md-4 mb-4">
-<div class="md-form" >
-<i class="fa fa-image prefix grey-text"></i>
-<input type="text"  id="logo" class="form-control" 
- >
- <label for="OMC">Contact</label>
-
-    </div>
-        </div>
-        <div class="col-md-4 mb-4">
-<div class="md-form" >
-<i class="fa fa-image prefix grey-text"></i>
-<input type="text"  id="logo" class="form-control" 
- >
- <label for="OMC">Email</label>
-
-    </div>
-        </div>
-        </div>                                       
-        
-    
-           
-
-
-
-</div>
-
 <div class="col-sm-12">
-    <button type="Submit" class="btn btn-info">Submit</button>
+    <button type="Submit" class="btn btn-info">Send</button>
     </div>
 </form>
  </div></div>

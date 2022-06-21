@@ -139,7 +139,7 @@ style="width:100%;padding:2%;background:white;border-radius:5px">
 <p style = "font-size:21px;font-weight:bold;">Edit this Station<p>
     </div>
     <div class="col-sm-3" >
-    <p class = "btn btn-danger">Delete OMC <i class="fa fa-trash"></i></p>
+    <p class = "btn btn-danger">Delete STATION <i class="fa fa-trash"></i></p>
     </div>
     </div>
     <br>

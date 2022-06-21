@@ -101,7 +101,7 @@
                         <a class="collapse-item" href="view_messages.php">Inbox</a>
                         <a class="collapse-item" href="sent_messages.php">Sent messages</a>
                         <a class="collapse-item" href="draft_messages.php">Draft messages</a>
-                    <a class="collapse-item" href="#">Deleted messages</a>
+                    <a class="collapse-item" href="deleted_messages.php">Deleted messages</a>
 
                     </div>
                 </div>
