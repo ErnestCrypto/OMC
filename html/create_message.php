@@ -5,7 +5,8 @@
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 <!------ Include the above in your HEAD tag ---------->
-
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src=" https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 <script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
 
 <style>
@@ -243,12 +244,75 @@ style="width:100%;padding:2%;background:white;border-radius:5px">
 <div class="container"> 
     <div class="card-body">
 
-<p style = "font-size:21px;font-weight:bold;">Let's start get started...<p>
+<p style = "font-size:21px;font-weight:bold;">Write a new message...<p>
 <form action="#" method="POST">
+<div class="row">
+       <div class="col-lg-3">
+     <div class="button-group">
+<button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">OMC</button>
+<ul class="dropdown-menu" style="padding:1%">
+  <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/> &nbsp;ALL OMCS</a></li>
+  <li><a href="#" class="small" data-value="option2" tabIndex="-1"><input type="checkbox"/> &nbsp;SHELL</a></li>
+  <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/> &nbsp;GOIL</a></li>
+  <li><a href="#" class="small" data-value="option4" tabIndex="-1"><input type="checkbox"/> &nbsp;TELENERGY</a></li>
+  <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/> &nbsp;PINFUEL</a></li>
+  <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/> &nbsp;FUEL</a></li>
+</ul>
+  </div>
+</div>
 
-<div class="col-sm-12">
-    <button type="Submit" class="btn btn-info">Send</button>
-    </div>
+
+<div class="col-lg-3">
+     <div class="button-group">
+<button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">STATION</button>
+<ul class="dropdown-menu" style="padding:1%">
+  <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/> &nbsp;ALL STATIONS</a></li>
+  <li style="color:orange">SHELL</li>
+    <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/> &nbsp;STATION 1</a></li>
+  <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/> &nbsp;STATION 2</a></li>
+  <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/> &nbsp;STATION 3</a></li>
+  <li  style="color:orange"> GOIl</li>
+  <li><a href="#" class="small" data-value="option5" tabIndex="-1"><input type="checkbox"/> &nbsp;STATION 1</a></li>
+  <li><a href="#" class="small" data-value="option6" tabIndex="-1"><input type="checkbox"/> &nbsp;STATION 2</a></li>
+</ul>
+  </div>
+</div>
+
+
+
+<div class="col-lg-3">
+     <div class="button-group">
+<button type="button" class="btn btn-default btn-lg dropdown-toggle" data-toggle="dropdown">ATTENDANTS</button>
+<ul class="dropdown-menu" style="padding:1%">
+  <li><a href="#" class="small" data-value="option1" tabIndex="-1"><input type="checkbox"/> &nbsp;ALL ATTENDANTS</a></li>
+    <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/> &nbsp;SHELL ATTENDANTS</a></li>
+  <li><a href="#" class="small" data-value="option3" tabIndex="-1"><input type="checkbox"/> &nbsp;GOIL ATTENDANTS</a></li>
+</ul>
+  </div>
+</div>
+
+
+
+
+
+  </div> 
+</div>     
+</div>
+
+	
+
+
+<div class="media mt-3">
+                     
+    <div class="col-sm-12">
+<textarea class="wysihtml5 form-control" rows="9" placeholder=" Message..."></textarea>
+                      </div>
+                  </div>
+<div class="text-right">
+	<button type="submit" class="btn btn-primary waves-effect waves-light mt-3"><i class="fa fa-send mr-1"></i> Send</button>
+</div>
+              
+              </div>
 </form>
  </div></div>
 <?php include("base/end.php"); ?>
@@ -262,5 +326,29 @@ style="width:100%;padding:2%;background:white;border-radius:5px">
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+<script>
+var options = [];
+
+$( '.dropdown-menu a' ).on( 'click', function( event ) {
+
+   var $target = $( event.currentTarget ),
+       val = $target.attr( 'data-value' ),
+       $inp = $target.find( 'input' ),
+       idx;
+
+   if ( ( idx = options.indexOf( val ) ) > -1 ) {
+      options.splice( idx, 1 );
+      setTimeout( function() { $inp.prop( 'checked', false ) }, 0);
+   } else {
+      options.push( val );
+      setTimeout( function() { $inp.prop( 'checked', true ) }, 0);
+   }
+
+   $( event.target ).blur();
+      
+   console.log( options );
+   return false;
+});
+  </script>
 
 </html>

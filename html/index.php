@@ -2,6 +2,13 @@
 <html lang="en">
 <?php include('base/head.php'); ?>
 
+<style>
+    @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+
+    </style>
+
+
 
 <body id="page-top">
 

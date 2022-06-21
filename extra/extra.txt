@@ -238,3 +238,40 @@ style="background:#F8F9FC;"
 
 
                     <table class="table table-borderless"></table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="col-sm-12">
+	<p class="h5 mb-15 text-gray-600">Choose recipients</p>
+</div>
+ <div class="container-fluid">
+<div class="panel-group">
+<div class="panel panel-default">
+	<div class="panel-heading">
+					<p class="panel-title">
+		<a data-toggle="collapse" href="#collapse1">OMC</a>
+</p>
+				  </div>
+				  <div id="collapse1" class="panel-collapse collapse">
+					<ul class=" col-sm-2 list-group" >
+<li class="list-group-item"><a data-toggle="collapse" href="#collapse1">SHELL</a></li>
+<li class="list-group-item"><a data-toggle="collapse" href="#collapse1">GOIL</a></li>
+<li class="list-group-item"><a data-toggle="collapse" href="#collapse1">TELENERGY</a></li>
+<li class="list-group-item"><a data-toggle="collapse" href="#collapse1">PINFUEL</a></li>
+<li class="list-group-item"><a data-toggle="collapse" href="#collapse1">FUEL</a></li>
+					</ul>
+				  </div>
+				</div>
+			  </div>
+</div>
