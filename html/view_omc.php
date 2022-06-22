@@ -4,6 +4,9 @@
 
 
 <style>
+  @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
+
 tr.h
 ide-table-padding td {
   padding: 0;
@@ -82,7 +85,7 @@ ide-table-padding td {
 <td style="width:10%;padding:0%"><img src="https://logos-world.net/wp-content/uploads/2020/11/Shell-Logo.png" class="rounded-circle" style="width:70%;"
   alt="logo" /></td>
 <td>SHELL</td>
-<td ><a href ="update_omc.php" class="text text-success" >Edit <i class="fa fa-pen" style="padding-left:1%;"></i></a></td>
+<td ><a href ="update_omc.php" class="text text-success" >Edit </a></td>
 </tr>
 <tr class="hide-table-padding">
 <td></td>
@@ -118,7 +121,7 @@ ide-table-padding td {
 style="width:80%;"
   alt="logo" /></td>
 <td>GOIL</td>
-<td ><a href ="update_omc.php" class="text text-success" >Edit <i class="fa fa-pen" style="padding-left:1%;"></i></a></td>
+<td ><a href ="update_omc.php" class="text text-success" >Edit </a></td>
 
 </tr>
 <tr class="hide-table-padding">
@@ -154,7 +157,7 @@ style="width:80%;"
 <td style="width:10%;padding:0%"><img src="data:image/png;base64,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" class="rounded-circle" style="width:70%;"
   alt="logo" /></td>
 <td>TELENERGY</td>
-<td ><a href ="update_omc.php" class="text text-success" >Edit <i class="fa fa-pen" style="padding-left:1%;"></i></a></td>
+<td ><a href ="update_omc.php" class="text text-success" >Edit </a></td>
 
 </tr>
 <tr class="hide-table-padding">
@@ -192,7 +195,7 @@ style="width:80%;"
 <td style="width:10%;padding:0%"><img src="https://image.shutterstock.com/image-vector/pin-fuel-logo-template-design-260nw-1617775240.jpg" class="rounded-circle" style="width:50%;"
   alt="logo" /></td>
 <td>PINFUEL</td>
-<td ><a href ="update_omc.php" class="text text-success" >Edit <i class="fa fa-pen" style="padding-left:1%;"></i></a></td>
+<td ><a href ="update_omc.php" class="text text-success" >Edit </a></td>
 
 </tr>
 <tr class="hide-table-padding">

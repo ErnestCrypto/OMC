@@ -7,12 +7,12 @@
 
 
             <!-- Sidebar - Brand -->
-<a class="sidebar-brand d-flex align-items-center justify-content-center" href="./index.php" style="height:20%">
+<a  href="./index.php" style="height:15%">
 <div class="sidebar-brand-text mx-1"><div class="col-sm-12" style="display:flex;justify-content:center;align-items:center">
 <img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
   alt="profile" />
-  </div>
-<h6 style="padding:2%">ERNEST AKOTO BAMFO</h6>
+  </div><center>
+<h6 style="padding:3%;color:white;">ERNEST AKOTO BAMFO</h6></center>
 
 </div>
             </a>
@@ -138,6 +138,7 @@
                 <div id="collapsePages" class="collapse" aria-labelledby="headingPages" data-parent="#accordionSidebar">
                     <div class="bg-white py-2 collapse-inner rounded">
                         <h6 class="collapse-header">Login Screens:</h6>
+                        <a class="collapse-item" href="profile.php">Profile</a>
                         <a class="collapse-item" href="login.html">Login</a>
                         <a class="collapse-item" href="register.html">Register</a>
                         <a class="collapse-item" href="forgot-password.php">Forgot Password</a>
