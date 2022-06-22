@@ -4,6 +4,8 @@
 
 
 <style>
+  @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css);
+@import url(https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.3/css/mdb.min.css);
 tr.h
 ide-table-padding td {
   padding: 0;
@@ -113,7 +115,7 @@ ide-table-padding td {
     <div class = "col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
         <div class = "col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
     <div class = "col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-<div  class ="col"><a href ="update_station.php" class="text text-success" ><i class="fa fa-pen" ></i></a></div>
+<div  class ="col"><a href ="update_station.php" class="text text-success" >EDIT</a></div>
 
 </div>
 <div class="hide-table-padding col" style="width:100%">
@@ -141,7 +143,7 @@ ide-table-padding td {
     <div class = "col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
         <div class = "col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
     <div class = "col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-<div  class ="col"><a href ="update_station.php" class="text text-success" ><i class="fa fa-pen" ></i></a></div>
+<div  class ="col"><a href ="update_station.php" class="text text-success" >EDIT</a></div>
 
 </div>
 <div class="hide-table-padding col" style="width:100%">
@@ -175,7 +177,7 @@ ide-table-padding td {
     <div class = "col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
         <div class = "col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
     <div class = "col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-<div  class ="col"><a href ="update_station.php" class="text text-success" ><i class="fa fa-pen" ></i></a></div>
+<div  class ="col"><a href ="update_station.php" class="text text-success" >EDIT</a></div>
 
 </div>
 <div class="hide-table-padding col" style="width:100%">
@@ -241,7 +243,7 @@ style="width:20%;"
     <div class = "col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
         <div class = "col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
     <div class = "col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-    <div  class ="col"><a href ="update_station.php" class="text text-success" ><i class="fa fa-pen" ></i></a></div>
+    <div  class ="col"><a href ="update_station.php" class="text text-success" >EDIT</a></div>
 
 
 </div>
@@ -270,7 +272,7 @@ style="width:20%;"
     <div class = "col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
         <div class = "col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
     <div class = "col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-    <div  class ="col"><a href ="update_station.php" class="text text-success" ><i class="fa fa-pen" ></i></a></div>
+    <div  class ="col"><a href ="update_station.php" class="text text-success" >EDIT</a></div>
 
 
 </div>
@@ -305,7 +307,7 @@ style="width:20%;"
     <div class = "col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
         <div class = "col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
     <div class = "col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-    <div  class ="col"><a href ="update_station.php" class="text text-success" ><i class="fa fa-pen" ></i></a></div>
+    <div  class ="col"><a href ="update_station.php" class="text text-success" >EDIT</a></div>
 
 
 </div>
@@ -373,7 +375,7 @@ style="width:20%;"
     <div class = "col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
         <div class = "col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
     <div class = "col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-    <div  class ="col"><a href ="update_station.php" class="text text-success" ><i class="fa fa-pen" ></i></a></div>
+    <div  class ="col"><a href ="update_station.php" class="text text-success" >EDIT</a></div>
 
 
 </div>
@@ -402,7 +404,7 @@ style="width:20%;"
     <div class = "col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
         <div class = "col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
     <div class = "col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-<div  class ="col"><a href ="update_station.php" class="text text-success" ><i class="fa fa-pen" ></i></a></div>
+<div  class ="col"><a href ="update_station.php" class="text text-success" >EDIT</a></div>
 
 </div>
 <div class="hide-table-padding col" style="width:100%">
@@ -436,7 +438,7 @@ style="width:20%;"
     <div class = "col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
         <div class = "col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
     <div class = "col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-<div  class ="col"><a href ="update_station.php" class="text text-success" ><i class="fa fa-pen" ></i></a></div>
+<div  class ="col"><a href ="update_station.php" class="text text-success" >EDIT</a></div>
 
 </div>
 <div class="hide-table-padding col" style="width:100%">
@@ -502,7 +504,7 @@ style="width:20%;"
     <div class = "col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
         <div class = "col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
     <div class = "col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-    <div  class ="col"><a href ="update_station.php" class="text text-success" ><i class="fa fa-pen" ></i></a></div>
+    <div  class ="col"><a href ="update_station.php" class="text text-success" >EDIT</a></div>
 
 
 </div>
@@ -531,7 +533,7 @@ style="width:20%;"
     <div class = "col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
         <div class = "col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
     <div class = "col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-    <div  class ="col"><a href ="update_station.php" class="text text-success" ><i class="fa fa-pen" ></i></a></div>
+    <div  class ="col"><a href ="update_station.php" class="text text-success" >EDIT</a></div>
 
 
 </div>
@@ -566,7 +568,7 @@ style="width:20%;"
     <div class = "col" style="font-size:15px;font-weight:bold;">P.O.BOX GP 2016</div>
         <div class = "col" style="font-size:15px;font-weight:bold;">29° 52' N</div>
     <div class = "col" style="font-size:15px;font-weight:bold;">2° 29' E</div>
-    <div  class ="col"><a href ="update_station.php" class="text text-success" ><i class="fa fa-pen" ></i></a></div>
+    <div  class ="col"><a href ="update_station.php" class="text text-success" >EDIT</a></div>
 
 
 </div>

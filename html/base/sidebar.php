@@ -3,12 +3,20 @@
 
         <!-- Sidebar -->
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+<br><br>
+
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="./index.php">
-    <div class="sidebar-brand-text mx-1"><h2>OMC</h2></div>
-            </a>
+<a class="sidebar-brand d-flex align-items-center justify-content-center" href="./index.php" style="height:20%">
+<div class="sidebar-brand-text mx-1"><div class="col-sm-12" style="display:flex;justify-content:center;align-items:center">
+<img src="https://www.w3schools.com/howto/img_avatar.png" class="rounded-circle" style="width:50%;"
+  alt="profile" />
+  </div>
+<h6 style="padding:2%">ERNEST AKOTO BAMFO</h6>
 
+</div>
+            </a>
+<br>
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
