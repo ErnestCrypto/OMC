@@ -59,9 +59,15 @@ ide-table-padding td {
 <?php include('base/top.php'); ?>
 
  <div class="container-fluid">
-
+<div class="row">
+  <div class="col-sm-1">
+    <i class="fa fa-tree" style="font-size:60px;color:rgba(0,0,0,0.6)"></i>
+    </div>
+  <div class="col-sm-6">
  <h1 class="h3 mb-15 text-gray-800" >View all your STATIONS</h1>
   <h6>This is your STATIONS list</h6>
+  </div>
+  </div>
  </div>
 <hr>
 <section style="background:white;border-radius:5px">

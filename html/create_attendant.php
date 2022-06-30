@@ -236,8 +236,16 @@
 
 <div
 style="width:100%;padding:2%;background:white;border-radius:5px">
+<div class="row">
+    <div class="col-sm-1">
+       
+    <i class="fa fa-street-view" style="font-size:70px;color:orange"></i>
+    </div>
+    <div class="col-sm-6">
  <h1 class="h3 mb-15 text-gray-800" >Create an ATTENDANT</h1>
   <h6>Add a new Attendant</h6>
+  </div>
+  </div>
  </div>
 <hr>
 <div class="card" style="margin-bottom:2%;padding-bottom:2%;">

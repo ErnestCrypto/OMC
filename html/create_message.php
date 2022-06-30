@@ -237,13 +237,21 @@
 
 <div
 style="width:100%;padding:2%;background:white;border-radius:5px">
+<div class="row">
+  <div style="padding-left:20px">
+<i class="fa fa-pagelines" style="font-size:60px;color:pink"></i>
+    </div>
+  <div class="col-sm-6">
  <h1 class="h3 mb-15 text-gray-800" >Write a new message</h1>
+ <h6 class="h6 mb-15 text-gray-500" >Broadcast the message to others</h6>
+
  </div>
+ </div>
+</div>
 <hr>
 <div class="card" style="margin-bottom:2%;padding-bottom:2%;">
 <div class="container"> 
     <div class="card-body">
-
 <p style = "font-size:21px;font-weight:bold;">Write a new message...<p>
 <form action="#" method="POST">
 <div class="row">

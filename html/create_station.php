@@ -119,8 +119,15 @@
 
 <div
 style="width:100%;padding:2%;background:white;border-radius:5px">
+<div class="row">
+<div class="col-sm-1">
+    <i class="fa fa-tree" style="font-size:60px;color:lightgreen"></i>
+    </div>
+    <div class="col-sm-3">
  <h1 class="h3 mb-15 text-gray-800" >Create a STATION</h1>
   <h6>Add a STATION from this page</h6>
+  </div>
+ </div>
  </div>
 <hr>
 <div class="card" style="margin-bottom:2%;padding-bottom:2%;">

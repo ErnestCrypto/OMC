@@ -448,9 +448,15 @@ background:#eee
 <div
 style="width:100%;padding:3%;background:white;border-radius:5px">
 <div class="col-sm-12" style="padding-bottom:2%">
+<div class="row">
+    <div style="padding-left:20px">
+<i class="fa fa-pagelines" style="font-size:60px;color:pink"></i>
+    </div>
+    <div class="col-sm-6">
  <h1 class="h3 mb-15 text-gray-800" >DELETED MESSAGES</h1>
 <h6 class="h6 mb-15 text-gray-500" >Lets see all the messages you have recieved</h6>
-
+</div>
+</div>
 </div>
  
 
