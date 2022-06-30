@@ -119,8 +119,15 @@
 
 <div
 style="width:100%;padding:2%;background:white;border-radius:5px">
+<div class = "row">
+    <div class="col-sm-1">
+   <i class="fas fa-gas-pump" style= "font-size:60px;color:lightblue;"></i>
+        </div>
+    <div class="col-sm-3">
  <h1 class="h3 mb-15 text-gray-800" >Create an OMC</h1>
   <h6>Add an OMC from this page</h6>
+  </div>
+  </div>
  </div>
 <hr>
 <div class="card" style="margin-bottom:2%;padding-bottom:2%;">

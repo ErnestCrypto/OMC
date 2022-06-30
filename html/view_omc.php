@@ -60,9 +60,15 @@ ide-table-padding td {
 <?php include('base/top.php'); ?>
 
  <div class="container-fluid">
-
+  <div class="row">
+<div class="col-sm-1">
+   <i class="fas fa-gas-pump" style= "font-size:60px;color:rgba(0,0,0,0.8);"></i>
+        </div>
+        <div class="col-sm-3">
  <h1 class="h3 mb-15 text-gray-800" >View all your OMCs</h1>
   <h6>This is your OMC list</h6>
+  </div>
+  </div>
  </div>
 <hr>
 <section style="background:white;border-radius:5px">
