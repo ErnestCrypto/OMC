@@ -239,7 +239,8 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
 <div class="col-sm-12" style="padding-bottom:2%">
 <div class = "row">
   <div class = "col-sm-1">
-<i class="fa fa-cubes-stacked"></i>    </div>
+<i class="fa fa-shield" style="font-size:60px;color:rgba(0,0,0,0.6)"></i>   
+ </div>
   <div class="col-sm-6">
  <h1 class="h3 mb-15 text-gray-800" >PAYMEST HISTORY</h1>
 <h6 class="h6 mb-15 text-gray-500" >View all payments made</h6>
