@@ -254,9 +254,9 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
     	      <div class="card">
            <div class="card-body">       
         <div class="col-lg-12 col-md-8">
-          <div class="col-sm-3">
-  <i class="fa fa-trash" aria-hidden="true" style="color:red;float:left"></i>
-  </div>
+             <div class="col-sm-1" >
+    <a href="" class = "btn btn-danger"><i class="fa fa-trash"></i></a>
+    </div>
             <div class="card shadow-none mt-3 border border-light">
                <div class="card-body">
                  <div class="media mb-3">
@@ -274,18 +274,23 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
                   <p>Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus. Vivamus elementum semper nisi.</p>
 
                   <hr>
-                  <h4> <i class="fa fa-paperclip mr-2"></i> Attachments <span>(3)</span> </h4>
-                 
+                  <h4>
+                 <label for="file">
+      <span class="fa fa-paperclip mr-2" aria-hidden="true" > Attachments</span>
+      <input type="file" id="file" style="display:none" multiple>
+</label></h4>
+ <p class = "btn btn-info" onclick="FileDetails()"> Show Files</p>
+ <p id="fp"></p>
                   </div>
 
                   <div class="media mt-3">
                      
              <div class="col-sm-12">
-          <textarea class="wysihtml5 form-control" rows="9" placeholder="Reply here..."></textarea>
+          <textarea class="wysihtml5 form-control" rows="9" placeholder=" Reply here..."></textarea>
                       </div>
                   </div>
                   <div class="text-right">
-                      <button type="button" class="btn btn-primary waves-effect waves-light mt-3"><i class="fa fa-send mr-1"></i> Send</button>
+                      <button type="button" class="btn btn-primary waves-effect waves-light mt-3" ><i class="fa fa-send mr-1"></i> Send</button>
                   </div>
               
               </div>
@@ -311,6 +316,37 @@ style="width:100%;padding:3%;background:white;border-radius:5px">
 </body>
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.4.1/js/mdb.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<script>
+    function FileDetails() {
+
+        // GET THE FILE INPUT.
+        var fi = document.getElementById('file');
+
+        // VALIDATE OR CHECK IF ANY FILE IS SELECTED.
+        if (fi.files.length > 0) {
+
+            // THE TOTAL FILE COUNT.
+            document.getElementById('fp').innerHTML =
+                'Total Files: <b>' + fi.files.length + '</b></br >';
+
+            // RUN A LOOP TO CHECK EACH SELECTED FILE.
+            for (var i = 0; i <= fi.files.length - 1; i++) {
+
+                var fname = fi.files.item(i).name;      // THE NAME OF THE FILE.
+                var fsize = fi.files.item(i).size;      // THE SIZE OF THE FILE.
+
+                // SHOW THE EXTRACTED DETAILS OF THE FILE.
+                document.getElementById('fp').innerHTML =
+                    document.getElementById('fp').innerHTML + '<br /> ' +
+                        fname + ' (<b>' + fsize + '</b> bytes)';
+            }
+        }
+        else { 
+            alert('Please select a file.') 
+        }
+    }
+</script>
 
 
 </html>
