@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-    <link href="../css/sb-admin-2.min.css" rel="icon">
+<link rel="icon" href="https://i.pinimg.com/originals/2c/55/90/2c559079b18aed56cf668b77f506cb63.jpg" >
 
     <title>OMC</title>
 
