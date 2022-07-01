@@ -311,8 +311,14 @@ style="width:100%;padding:2%;background:white;border-radius:5px">
 
 
 <div class="media mt-3">
-                     
     <div class="col-sm-12">
+       <h4>
+                 <label for="file">
+      <span class="fa fa-paperclip mr-2" aria-hidden="true" > Attachments</span>
+      <input type="file" id="file" style="display:none" multiple>
+</label></h4>
+ <p class = "btn btn-info" onclick="FileDetails()"> Show Files</p>
+ <p id="fp"></p>
 <textarea class="wysihtml5 form-control" rows="9" placeholder=" Message..."></textarea>
                       </div>
                   </div>
@@ -359,4 +365,34 @@ $( '.dropdown-menu a' ).on( 'click', function( event ) {
 });
   </script>
 
+<script>
+    function FileDetails() {
+
+        // GET THE FILE INPUT.
+        var fi = document.getElementById('file');
+
+        // VALIDATE OR CHECK IF ANY FILE IS SELECTED.
+        if (fi.files.length > 0) {
+
+            // THE TOTAL FILE COUNT.
+            document.getElementById('fp').innerHTML =
+                'Total Files: <b>' + fi.files.length + '</b></br >';
+
+            // RUN A LOOP TO CHECK EACH SELECTED FILE.
+            for (var i = 0; i <= fi.files.length - 1; i++) {
+
+                var fname = fi.files.item(i).name;      // THE NAME OF THE FILE.
+                var fsize = fi.files.item(i).size;      // THE SIZE OF THE FILE.
+
+                // SHOW THE EXTRACTED DETAILS OF THE FILE.
+                document.getElementById('fp').innerHTML =
+                    document.getElementById('fp').innerHTML + '<br /> ' +
+                        fname + ' (<b>' + fsize + '</b> bytes)';
+            }
+        }
+        else { 
+            alert('Please select a file.') 
+        }
+    }
+</script>
 </html>
